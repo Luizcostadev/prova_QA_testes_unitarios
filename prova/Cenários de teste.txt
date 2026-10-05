@@ -1,0 +1,18 @@
+Cenários de teste 
+# Cenários de Teste — Cálculo de Desconto
+
+1. Compra de R$ 50,00 com cliente COMUM → desconto de R$ 0,00.
+2. Compra de R$ 100,00 com cliente COMUM → desconto de R$ 10,00.
+3. Compra de R$ 300,00 com cliente COMUM → desconto de R$ 30,00.
+4. Compra de R$ 499,99 com cliente COMUM → desconto de R$ 49,99.
+5. Compra de R$ 500,00 com cliente COMUM → desconto de R$ 100,00.
+6. Compra de R$ 700,00 com cliente COMUM → desconto de R$ 140,00.
+7. Compra de R$ 50,00 com cliente VIP → desconto de R$ 2,50.
+8. Compra de R$ 100,00 com cliente VIP → desconto de R$ 15,00.
+9. Compra de R$ 300,00 com cliente VIP → desconto de R$ 45,00.
+10. Compra de R$ 500,00 com cliente VIP → desconto de R$ 125,00.
+11. Compra de R$ 300,00 com cliente `"vip"` → desconto de R$ 45,00.
+12. Compra de R$ 300,00 com cliente `"Vip"` → desconto de R$ 45,00.
+13. Compra de R$ 1.000,00 com cliente COMUM → desconto limitado a R$ 200,00.
+14. Compra de R$ 1.000,00 com cliente VIP → desconto limitado a R$ 200,00.
+15. Compra de R$ 2.000,00 com cliente VIP → desconto limitado a R$ 200,00.
